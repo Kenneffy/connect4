@@ -1,0 +1,57 @@
+		#columnOne, #columnTwo, #columnThree, #columnFour, #columnFive, #columnSix, #columnSeven {
+			float: left;
+		}
+
+		#columnOne div{
+			height: 50px;
+			width: 50px;
+			border: 5px solid green;
+		}
+
+		#columnTwo div{
+			height: 50px;
+			width: 50px;
+			border: 5px solid green;
+		}
+
+		#columnThree div{
+			height: 50px;
+			width: 50px;
+			border: 5px solid green;
+		}
+
+		#columnFour div{
+			height: 50px;
+			width: 50px;
+			border: 5px solid green;
+		}
+
+		#columnFive div{
+			height: 50px;
+			width: 50px;
+			border: 5px solid green;
+		}
+
+		#columnSix div{
+			height: 50px;
+			width: 50px;
+			border: 5px solid green;
+		}
+
+		#columnSeven div{
+			height: 50px;
+			width: 50px;
+			border: 5px solid green;
+		}
+
+		.white {
+			background-color: white;
+		}
+
+		.red {
+			background-color: red;
+		}
+
+		.black {
+			background-color: black
+		}
