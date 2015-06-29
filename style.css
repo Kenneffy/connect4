@@ -2,46 +2,56 @@
 			float: left;
 		}
 
+		#turn {
+			font-size: 25px
+			d
+		}
+
+		p {
+			font-size: 25px;
+
+		}
+
 		#columnOne div{
-			height: 50px;
-			width: 50px;
-			border: 5px solid green;
+			height: 65px;
+			width: 65px;
+			border: 5px dashed #43C6DB;
 		}
 
 		#columnTwo div{
-			height: 50px;
-			width: 50px;
-			border: 5px solid green;
+			height: 65px;
+			width: 65px;
+			border: 5px dashed #43C6DB;
 		}
 
 		#columnThree div{
-			height: 50px;
-			width: 50px;
-			border: 5px solid green;
+			height: 65px;
+			width: 65px;
+			border: 5px dashed #43C6DB;
 		}
 
 		#columnFour div{
-			height: 50px;
-			width: 50px;
-			border: 5px solid green;
+			height: 65px;
+			width: 65px;
+			border: 5px dashed #43C6DB;
 		}
 
 		#columnFive div{
-			height: 50px;
-			width: 50px;
-			border: 5px solid green;
+			height: 65px;
+			width: 65px;
+			border: 5px dashed #43C6DB;
 		}
 
 		#columnSix div{
-			height: 50px;
-			width: 50px;
-			border: 5px solid green;
+			height: 65px;
+			width: 65px;
+			border: 5px dashed #43C6DB;
 		}
 
 		#columnSeven div{
-			height: 50px;
-			width: 50px;
-			border: 5px solid green;
+			height: 65px;
+			width: 65px;
+			border: 5px dashed #43C6DB;
 		}
 
 		.white {
@@ -50,8 +60,18 @@
 
 		.red {
 			background-color: red;
+			background-color: #c06;
+			height: 150px;
+			-moz-border-radius:75px;
+			-webkit-border-radius: 75px;
+			width: 150px;
 		}
 
 		.black {
-			background-color: black
+			background-color: black;
+			background-color: #000000;
+			height: 150px;
+			-moz-border-radius:75px;
+			-webkit-border-radius: 75px;
+			width: 150px;
 		}
