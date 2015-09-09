@@ -1,10 +1,8 @@
 # Connect4
 First WDI Project
 
-Website: http://kenneffy.github.io/connect4/
-
 Technologies used:
-Programming languages used were HTML/CSS, Javascript & utilized JQUERY. Also used github to as a platform to store and commit my files. 
+Programming languages used were HTML/CSS, Javascript & JQUERY. Also used github to as a platform to store and commit my files. 
 
 The object was to create a game that simulates the classic board game "Connect 4". I broke down the game to it's most basic parts. There are 7 columns and 6 rows, I expressed that structure through DIVs. There are two value inputs, player 1's choice and player 2's choice. I expressed player 1 as red and player 2 as black. 
 
