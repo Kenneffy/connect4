@@ -4,7 +4,7 @@ First WDI Project
 Technologies used:
 Programming languages used were HTML/CSS, Javascript & JQUERY. Also used github to as a platform to store and commit my files. 
 
-The object was to create a game that simulates the classic board game "Connect 4". I broke down the game to it's most basic parts. There are 7 columns and 6 rows, I expressed that structure through DIVs. There are two value inputs, player 1's choice and player 2's choice. I expressed player 1 as red and player 2 as black. 
+The objective was to create a game that simulates the classic board game "Connect 4". I broke down the game to it's most basic parts. There are 7 columns and 6 rows, I expressed that structure through DIVs. There are two value inputs, player 1's choice and player 2's choice. I expressed player 1 as red and player 2 as black. 
 
 The values populate from bottom up, I evaluated an input value (red or black) according to whose turn it was. Turn 1 (player 1) would populate a value of red and turn 2 (player 2) would populate a value of black. 
 

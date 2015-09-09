@@ -283,7 +283,11 @@ $( document ).ready(function() {
 
 	
 	var dropCoin = function (column, t) {
+		//column = "this" t = "turn"
+
+		//empty string set for variable
 		var classColor = '';
+
 
 		if (t == '1'){
 			classColor = 'red'
@@ -291,6 +295,7 @@ $( document ).ready(function() {
 			classColor = 'black'
 		}
 
+		//for loop that goes through all the children of a column - replaces the current white class with either red or black according to the turn
 		for (var i = 5; i < column.children().length; i--) {
 
 			if (column.children().eq(i).hasClass('white')) {
@@ -301,18 +306,25 @@ $( document ).ready(function() {
 			}
 
 		}
+		//function that checks if board has any of the winning combinations
 		checkIfSomeoneWon();
 	
 	}
 
+	//turn 1
 	var turn = 1;
 
+	//listening to span id="turn" for 1 or 2
 	$('#turn').text(turn);
 
+	//set event listener for column divs
+	//function will run on click
 	$('#columnOne, #columnTwo, #columnThree, #columnFour, #columnFive, #columnSix, #columnSeven').on('click', function(){
 		
 		if (turn == 1){
+			//run dropCoin function
 			dropCoin($(this), turn)	
+			//reset turn from 1 to 2
 			turn = 2;
 			$('#turn').text(turn);
 

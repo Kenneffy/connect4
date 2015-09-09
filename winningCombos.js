@@ -1,3 +1,4 @@
+//listed all winning combinations
 var checkIfSomeoneWon = function() {
 		if ($('#columnOne').children().eq(5).hasClass('red') && $('#columnOne').children().eq(4).hasClass('red') && $('#columnOne').children().eq(3).hasClass('red') && $('#columnOne').children().eq(2).hasClass('red')) {
 			alert('winner red')
