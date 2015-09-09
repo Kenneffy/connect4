@@ -1,5 +1,5 @@
-# connect4
-connect4
+# Connect4
+First WDI Project
 
 Website: http://kenneffy.github.io/connect4/
 

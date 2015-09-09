@@ -1,6 +1,4 @@
-$( document ).ready(function() {
-	console.log("loaded bro")
-	var checkIfSomeoneWon = function() {
+var checkIfSomeoneWon = function() {
 		if ($('#columnOne').children().eq(5).hasClass('red') && $('#columnOne').children().eq(4).hasClass('red') && $('#columnOne').children().eq(3).hasClass('red') && $('#columnOne').children().eq(2).hasClass('red')) {
 			alert('winner red')
 		} else if($('#columnOne').children().eq(5).hasClass('black') && $('#columnOne').children().eq(4).hasClass('black') && $('#columnOne').children().eq(3).hasClass('black') && $('#columnOne').children().eq(2).hasClass('black')) {
@@ -277,51 +275,4 @@ $( document ).ready(function() {
 			alert('winner black')
 		} else if ($('#columnFour').children().eq(0).hasClass('red') && $('#columnFive').children().eq(1).hasClass('red') && $('#columnSix').children().eq(2).hasClass('red') && $('#columnSeven').children().eq(3).hasClass('red')) {
 			alert('winner red')
-		}  
-
-	}
-
-	
-	var dropCoin = function (column, t) {
-		var classColor = '';
-
-		if (t == '1'){
-			classColor = 'red'
-		} else{
-			classColor = 'black'
 		}
-
-		for (var i = 5; i < column.children().length; i--) {
-
-			if (column.children().eq(i).hasClass('white')) {
-				column.children().eq(i).removeClass('white')
-				column.children().eq(i).addClass(classColor)
-
-				break;
-			}
-
-		}
-		checkIfSomeoneWon();
-	
-	}
-
-	var turn = 1;
-
-	$('#turn').text(turn);
-
-	$('#columnOne, #columnTwo, #columnThree, #columnFour, #columnFive, #columnSix, #columnSeven').on('click', function(){
-		
-		if (turn == 1){
-			dropCoin($(this), turn)	
-			turn = 2;
-			$('#turn').text(turn);
-
-		}else if(turn == 2){
-			dropCoin($(this), turn)
-			turn = 1;
-			$('#turn').text(turn);
-			
-
-		}
-	});
-});
